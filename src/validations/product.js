@@ -7,6 +7,7 @@ const productValid = Joi.object({
     description: Joi.string().required(),
     category: Joi.string().required(),
     image: Joi.string().required(),
+    brand: Joi.string().required(),
 })
 
 export default productValid
